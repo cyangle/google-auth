@@ -19,4 +19,4 @@ development_dependencies:
   webmock:
     github: manastech/webmock.cr
   ameba:
-    github: veelenga/ameba
+    github: crystal-ameba/ameba
