@@ -1,6 +1,6 @@
 # google-auth
 
-TODO: Write a description here
+Google OAuth2 library for crystal
 
 ## Installation
 
