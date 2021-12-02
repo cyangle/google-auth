@@ -10,7 +10,7 @@ Google OAuth2 library for crystal
    dependencies:
      google-auth:
        github: cyangle/google-auth
-       version: ~> 0.1.0
+       version: ~> 0.1.1
    ```
 
 2. Run `shards install`
