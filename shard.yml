@@ -1,0 +1,22 @@
+name: google-auth
+version: 0.1.0
+authors:
+  - Chao Yang <cyang05@outlook.com>
+description: |
+  Google OAuth2 library for crystal
+crystal: ">= 1, < 2"
+license: MIT
+
+dependencies:
+  crest:
+    github: mamantoha/crest
+    version: ~> 1.0
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.4
+
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+  ameba:
+    github: veelenga/ameba
