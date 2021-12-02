@@ -26,7 +26,7 @@ module GoogleAuth
     property user_agent : String
     property issuer : String
 
-    def initialize(@issuer : String, @signing_key : String, @key_id : String, scopes : String | Array(String),  @sub : String = "", @token_path : String = TOKEN_PATH, @audience : String = AUDIENCE, @user_agent : String = DEFAULT_USER_AGENT)
+    def initialize(@issuer : String, @signing_key : String, @key_id : String, scopes : String | Array(String), @sub : String = "", @token_path : String = TOKEN_PATH, @audience : String = AUDIENCE, @user_agent : String = DEFAULT_USER_AGENT)
       @scopes = scopes.is_a?(Array) ? scopes.join(" ") : scopes
     end
 
